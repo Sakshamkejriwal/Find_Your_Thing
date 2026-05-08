@@ -45,5 +45,13 @@ Losing an item on a large campus can be stressful. **Find Your Thing** was creat
     npm run dev
     ```
 
+## AI AutoFill Setup
+This project uses AI to automatically identify found items from photos. currently using "gemini-2.5-flash-lite" which is free to use. can be found in src/utils/ai.js 
+
+1.  Get a **Gemini API Key** (Free) from [Google AI Studio](https://aistudio.google.com/).
+2.  Create a `.env` file in the root directory.
+3.  Add your key: `VITE_GEMINI_API_KEY=your_key_here`.
+4.  Upload an image in the "Report Item" page and watch it work!
+
 ---
 *Capstone project, Made by Dhruv Kumar Sinha | Saksham Kejriwal | Ritam Mishra, Group 130*

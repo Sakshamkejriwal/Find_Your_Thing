@@ -45,7 +45,7 @@ function ItemDetail() {
                <img 
                  src={item.image || "https://placehold.co/800x600?text=No+Image"} 
                  alt={item.name} 
-                 className="w-full h-full object-cover max-h-[400px] rounded-2xl shadow-sm" 
+                 className="w-full h-auto object-contain rounded-2xl shadow-sm" 
                />
             </div>
 

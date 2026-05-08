@@ -6,8 +6,6 @@ import ItemDetail from "./pages/ItemDetail";
 import ReportItem from "./pages/ReportItem";
 
 function App() {
-  let obj = {Name: "haha"}
-  console.log(obj)
   return (
     <BrowserRouter>
       <Navbar />

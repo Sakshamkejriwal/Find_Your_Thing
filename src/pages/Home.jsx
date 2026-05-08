@@ -14,7 +14,7 @@ function Home() {
   return (
     <div className="min-h-screen bg-[#F8F9FA]">
       {/* ─── Hero Section ─── */}
-      <section className="py-20 px-4 sm:px-6 lg:px-8 text-center bg-white rounded-b-[3rem] shadow-sm mb-12 border-b border-gray-100">
+      <section className="py-20 px-4 sm:px-6 lg:px-8 text-center bg-white shadow-sm mb-12 border-b border-gray-100">
         <div className="max-w-3xl mx-auto">
           <h1 className="text-4xl sm:text-6xl font-bold text-gray-900 mb-6 tracking-tight">
             Lost something? 
