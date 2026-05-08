@@ -1,10 +1,10 @@
-
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Navbar from "./components/Navbar";
 import Home from "./pages/Home";
 import Browse from "./pages/Browse";
 import ItemDetail from "./pages/ItemDetail";
 import ReportItem from "./pages/ReportItem";
+
 function App() {
   let obj = {Name: "haha"}
   console.log(obj)
@@ -21,4 +21,5 @@ function App() {
     </BrowserRouter>
   );
 }
+
 export default App;
