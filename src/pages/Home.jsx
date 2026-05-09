@@ -17,28 +17,28 @@ function Home() {
       <section className="py-20 px-4 sm:px-6 lg:px-8 text-center bg-white shadow-sm mb-12 border-b border-gray-100">
         <div className="max-w-3xl mx-auto">
           <h1 className="text-4xl sm:text-6xl font-bold text-gray-900 mb-6 tracking-tight">
-            Lost something? 
+            Lost something?
             <br />
             <span className="text-[#9B1B30]">Find it here.</span>
           </h1>
 
           <p className="text-lg text-gray-500 mb-10 max-w-xl mx-auto">
-            Find your lost belongings on campus. 
+            Find your lost belongings on campus.
             Connect with finders instantly.
           </p>
 
           <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
             <Link
-              to="/browse"
-              className="w-full sm:w-auto bg-[#9B1B30] hover:bg-[#801527] text-white font-medium px-8 py-3.5 rounded-full transition-colors"
-            >
-              I Lost an Item
-            </Link>
-            <Link
               to="/report"
               className="w-full sm:w-auto bg-white border border-gray-200 hover:bg-gray-50 text-gray-700 font-medium px-8 py-3.5 rounded-full transition-colors shadow-sm"
             >
               I Found an Item
+            </Link>
+            <Link
+              to="/browse"
+              className="w-full sm:w-auto bg-[#9B1B30] hover:bg-[#801527] text-white font-medium px-8 py-3.5 rounded-full transition-colors"
+            >
+              I Lost an Item
             </Link>
           </div>
         </div>

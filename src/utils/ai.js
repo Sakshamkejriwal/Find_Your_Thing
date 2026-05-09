@@ -25,7 +25,9 @@ export async function analyzeFoundItem(base64Image, categories) {
       You are a campus lost-and-found assistant. 
       Analyze the provided image of an item found on campus.
       Suggest a short name, a category, and a brief description.
-      
+      if an item is Keychain, it is most probably be a set of Room Keys.
+      if there is any sticker on the item, add details regarding stickers as well.
+
       The category MUST be exactly one of these: ${categories.join(", ")}.
       
       Response format (JSON):
